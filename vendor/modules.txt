@@ -1,0 +1,46 @@
+# github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d
+github.com/cpuguy83/go-md2man/v2/md2man
+# github.com/davecgh/go-spew v1.1.0
+github.com/davecgh/go-spew/spew
+# github.com/fatih/color v1.4.1
+github.com/fatih/color
+# github.com/golang/protobuf v0.0.0-20170427213220-18c9bb326172
+github.com/golang/protobuf/proto
+# github.com/google/go-github v0.0.0-20170425170326-e8d46665e050
+github.com/google/go-github/github
+# github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135
+github.com/google/go-querystring/query
+# github.com/mattn/go-colorable v0.0.0-20170210172801-5411d3eea597
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.0-20170307163044-57fdcb988a5c
+github.com/mattn/go-isatty
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/russross/blackfriday/v2 v2.0.1
+github.com/russross/blackfriday/v2
+# github.com/shurcooL/sanitized_anchor_name v1.0.0
+github.com/shurcooL/sanitized_anchor_name
+# github.com/stretchr/testify v1.6.1
+github.com/stretchr/testify/assert
+# github.com/urfave/cli v1.22.4
+github.com/urfave/cli
+# golang.org/x/net v0.0.0-20170503120255-feeb485667d1
+golang.org/x/net/context
+# golang.org/x/oauth2 v0.0.0-20170412232759-a6bd8cefa181
+golang.org/x/oauth2
+golang.org/x/oauth2/internal
+# golang.org/x/sys v0.0.0-20170213225739-e24f485414ae
+golang.org/x/sys/unix
+# google.golang.org/appengine v0.0.0-20170410194355-170382fa85b1
+google.golang.org/appengine
+google.golang.org/appengine/internal
+google.golang.org/appengine/internal/app_identity
+google.golang.org/appengine/internal/base
+google.golang.org/appengine/internal/datastore
+google.golang.org/appengine/internal/log
+google.golang.org/appengine/internal/modules
+google.golang.org/appengine/internal/remote_api
+google.golang.org/appengine/internal/urlfetch
+google.golang.org/appengine/urlfetch
+# gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+gopkg.in/yaml.v3
