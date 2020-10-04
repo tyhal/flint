@@ -35,7 +35,7 @@ func Test_newProject_BuildsRemoteProjectWithGitHubFlag(t *testing.T) {
 		project = newProject(c)
 	}
 	app := NewApp()
-	app.Run([]string{"", "--github", "pengwynn/flint"})
+	app.Run([]string{"", "--github", "tyhal/flint"})
 	assert.IsType(t, &RemoteProject{}, project)
 }
 

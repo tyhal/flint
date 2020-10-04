@@ -1,4 +1,4 @@
-module github.com/pengwynn/flint
+module github.com/tyhal/flint
 
 go 1.12
 
