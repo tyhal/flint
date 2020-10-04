@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/pengwynn/flint/flint"
+	"github.com/tyhal/flint/flint"
 )
 
 func main() {

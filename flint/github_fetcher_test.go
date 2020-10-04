@@ -15,7 +15,7 @@ import (
 
 func TestGitHubFetcherRequiresClientForFetchRepository(t *testing.T) {
 	fetcher := &GitHubFetcher{}
-	repo, err := fetcher.FetchRepository("pengwynn/flint")
+	repo, err := fetcher.FetchRepository("tyhal/flint")
 	assert.Nil(t, repo)
 	assert.NotNil(t, err)
 }
@@ -64,7 +64,7 @@ func TestGitHubFetcherHandlesNameParsingErrorForFetchRepository(t *testing.T) {
 
 func TestGitHubFetcherRequiresClientForFetchTree(t *testing.T) {
 	fetcher := &GitHubFetcher{}
-	paths, err := fetcher.FetchTree("pengwynn/flint")
+	paths, err := fetcher.FetchTree("tyhal/flint")
 	assert.Nil(t, paths)
 	assert.NotNil(t, err)
 }
@@ -129,17 +129,17 @@ func TestGitHubFetcher_FetchReleases(t *testing.T) {
 func TestGitHubFetcher_ParseFullName(t *testing.T) {
 	fetcher := &GitHubFetcher{}
 
-	owner, name, err := fetcher.ParseFullName("pengwynn/flint")
-	assert.Equal(t, "pengwynn", owner)
+	owner, name, err := fetcher.ParseFullName("tyhal/flint")
+	assert.Equal(t, "tyhal", owner)
 	assert.Equal(t, "flint", name)
 	assert.Nil(t, err)
 
-	owner, name, err = fetcher.ParseFullName("pengwynnflint")
+	owner, name, err = fetcher.ParseFullName("tyhalflint")
 	assert.Empty(t, owner)
 	assert.Empty(t, name)
 
 	if assert.NotNil(t, err) {
-		assert.Equal(t, "Invalid GitHub repository: pengwynnflint", err.Error())
+		assert.Equal(t, "Invalid GitHub repository: tyhalflint", err.Error())
 	}
 }
 
